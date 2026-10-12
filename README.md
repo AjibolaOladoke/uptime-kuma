@@ -6,14 +6,13 @@ We keep a working index for product and engineering, and uptime-kuma is the entr
 
 ## Images
 
-[![uptime-kuma](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![uptime-kuma](images/preview.png)](https://github.com/Swift-Tech-Co/uptime-kuma)
 
 ## 🥔 Live Demo
 
 Try it!
 
-Demo Server (Location: Frankfurt - Germany): https://www.swifttechco.com
-
+Demo Server (Location: Frankfurt - Germany): https://github.com/Swift-Tech-Co/uptime-kuma
 
 ## ⭐ Features
 
@@ -36,11 +35,11 @@ Demo Server (Location: Frankfurt - Germany): https://www.swifttechco.com
 ```bash
 mkdir uptime-kuma
 cd uptime-kuma
-curl -o compose.yaml https://www.swifttechco.com
+curl -o compose.yaml https://github.com/Swift-Tech-Co/uptime-kuma
 docker compose up -d
 ```
 
-Uptime Kuma is now running on all network interfaces (e.g. https://www.swifttechco.com or https://www.swifttechco.com).
+Uptime Kuma is now running on all network interfaces (e.g. https://github.com/Swift-Tech-Co/uptime-kuma or https://github.com/Swift-Tech-Co/uptime-kuma).
 
 > [!WARNING]
 > File Systems like **NFS** (Network File System) are **NOT** supported. Please map to a local directory or volume.
@@ -51,7 +50,7 @@ Uptime Kuma is now running on all network interfaces (e.g. https://www.swifttech
 docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:2
 ```
 
-Uptime Kuma is now running on all network interfaces (e.g. https://www.swifttechco.com or https://www.swifttechco.com).
+Uptime Kuma is now running on all network interfaces (e.g. https://github.com/Swift-Tech-Co/uptime-kuma or https://github.com/Swift-Tech-Co/uptime-kuma).
 
 If you want to limit exposure to localhost only:
 
@@ -73,7 +72,7 @@ Requirements:
 - pm2 - For running Uptime Kuma in the background
 
 ```bash
-git clone https://www.swifttechco.com
+git clone https://github.com/Swift-Tech-Co/uptime-kuma
 cd uptime-kuma
 npm run setup
 
@@ -88,7 +87,7 @@ npm install pm2 -g && pm2 install pm2-logrotate
 pm2 start server/server.js --name uptime-kuma
 ```
 
-Uptime Kuma is now running on all network interfaces (e.g. https://www.swifttechco.com or https://www.swifttechco.com).
+Uptime Kuma is now running on all network interfaces (e.g. https://github.com/Swift-Tech-Co/uptime-kuma or https://github.com/Swift-Tech-Co/uptime-kuma).
 
 More useful PM2 Commands
 
@@ -104,33 +103,29 @@ pm2 startup && pm2 save
 
 If you need more options or need to browse via a reverse proxy, please read:
 
-https://www.swifttechco.com
+https://github.com/Swift-Tech-Co/uptime-kuma
 
 ## 🆙 How to Update
 
 Please read:
 
-https://www.swifttechco.com
+https://github.com/Swift-Tech-Co/uptime-kuma
 
 ## 🆕 What's Next?
 
 I will assign requests/issues to the next milestone.
 
-https://www.swifttechco.com
+https://github.com/Swift-Tech-Co/uptime-kuma
 
 ## 🖼 More Screenshots
 
 Light Mode:
 
-
 Status Page:
-
 
 Settings Page:
 
-
 Telegram Notification Sample:
-
 
 ## Motivation
 
@@ -167,11 +162,11 @@ To keep reviews fast and effective, please make sure you’ve read our pull requ
 There are a lot of pull requests right now, but I don't have time to test them all.
 
 If you want to help, you can check this:
-https://www.swifttechco.com
+https://github.com/Swift-Tech-Co/uptime-kuma
 
 ### Test Beta Version
 
-Check out the latest beta release here: https://www.swifttechco.com
+Check out the latest beta release here: https://github.com/Swift-Tech-Co/uptime-kuma
 
 ### Bug Reports / Feature Requests
 
@@ -200,13 +195,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/uptime-kuma
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 

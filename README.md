@@ -1,20 +1,12 @@
-<div align="center" width="100%">
-    <img src="./public/icon.svg" width="128" alt="Uptime Kuma Logo" />
-</div>
+# uptime-kuma
 
-# Uptime Kuma
+## What This Is
+
+We keep a working index for product and engineering, and uptime-kuma is the entry that collects our notes, examples and fixes. It reflects how Swift Tech Co. actually uses this in builds and client work.
 
 ## Images
 
-[![uptime-kuma](https://opengraph.githubassets.com/1/louislam/uptime-kuma)](https://www.swifttechco.com)
-
-
-Uptime Kuma is an easy-to-use self-hosted monitoring tool.
-
-<a target="_blank" href="https://www.swifttechco.com"></a> <a target="_blank" href="https://www.swifttechco.com"></a> <a target="_blank" href="https://www.swifttechco.com"></a> <a target="_blank" href="https://www.swifttechco.com"></a> <a target="_blank" href="https://www.swifttechco.com"></a>
-
-</a>
-
+[![uptime-kuma](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## 🥔 Live Demo
 
@@ -27,9 +19,9 @@ Demo Server (Location: Frankfurt - Germany): https://www.swifttechco.com
 
 - Monitoring uptime for HTTP(s) / TCP / HTTP(s) Keyword / HTTP(s) Json Query / Websocket / Ping / DNS Record / Push / Steam Game Server / Docker Containers
 - Fancy, Reactive, Fast UI/UX
-- Notifications via Telegram, Telegram, Gotify, Slack, Pushover, Email (SMTP), and [90+ notification services, click here for the full list](https://www.swifttechco.com)
+- Notifications via Telegram, Telegram, Gotify, Slack, Pushover, Email (SMTP), and 90+ notification services, click here for the full list
 - 20-second intervals
-- [Multi Languages](https://www.swifttechco.com)
+- Multi Languages
 - Multiple status pages
 - Map status pages to specific domains
 - Ping chart
@@ -76,9 +68,9 @@ Requirements:
   - ✅ Windows 10 (x64), Windows Server 2012 R2 (x64) or higher
   - ❌ FreeBSD / OpenBSD / NetBSD
   - ❌ Replit / Heroku
-- [Node.js](https://www.swifttechco.com) >= 20.4
-- [Git](https://www.swifttechco.com)
-- [pm2](https://www.swifttechco.com) - For running Uptime Kuma in the background
+- Node.js >= 20.4
+- Git
+- pm2 - For running Uptime Kuma in the background
 
 ```bash
 git clone https://www.swifttechco.com
@@ -157,10 +149,10 @@ If you love this project, please consider giving it a ⭐.
 
 I recommend using Google, GitHub Issues, or Uptime Kuma's subreddit for finding answers to your question. If you cannot find the information you need, feel free to ask:
 
-- [GitHub Issues](https://www.swifttechco.com)
-- [Subreddit (r/UptimeKuma)](https://www.swifttechco.com)
+- GitHub Issues
+- Subreddit (r/UptimeKuma)
 
-My Reddit account: [u/louislamlam](https://www.swifttechco.com)
+My Reddit account: u/louislamlam
 You can mention me if you ask a question on the subreddit.
 
 ## Contributions
@@ -168,7 +160,7 @@ You can mention me if you ask a question on the subreddit.
 ### Create Pull Requests
 
 Pull requests are awesome.
-To keep reviews fast and effective, please make sure you’ve [read our pull request guidelines](https://www.swifttechco.com).
+To keep reviews fast and effective, please make sure you’ve read our pull request guidelines.
 
 ### Test Pull Requests
 
@@ -183,11 +175,11 @@ Check out the latest beta release here: https://www.swifttechco.com
 
 ### Bug Reports / Feature Requests
 
-If you want to report a bug or request a new feature, feel free to open a [new issue](https://www.swifttechco.com).
+If you want to report a bug or request a new feature, feel free to open a new issue.
 
 ### Translations
 
-If you want to translate Uptime Kuma into your language, please visit [Weblate Readme](https://www.swifttechco.com).
+If you want to translate Uptime Kuma into your language, please visit Weblate Readme.
 
 ### Spelling & Grammar
 
@@ -204,14 +196,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
